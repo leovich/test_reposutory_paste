@@ -1,0 +1,10 @@
+describe('My First Test', function() {
+  it('clicks the link "type"', function() {
+    cy.visit('https://pastebin.com/');    
+	cy.get('.paste_textarea').type('test insert').should('have.value', 'test insert');
+	cy.contains('Create New Paste').click();
+	
+	cy.get('.paste_code').should('have.value', 'test insert');
+	//cy.get('.content_text no_padding');
+  })
+})
