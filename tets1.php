@@ -6,6 +6,8 @@ declare(strict_types=1);
  * Save as tets1.php and run: php tets1.php
  */
 
+// test 999;
+
 function add(int $a, int $b): int {
     return $a + $b;
 }
