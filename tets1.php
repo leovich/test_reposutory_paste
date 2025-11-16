@@ -27,6 +27,8 @@ foreach ($tests as $i => $t) {
     }
 }
 
+
+
 if (empty($failures)) {
     echo "All tests passed.\n";
     exit(0);
